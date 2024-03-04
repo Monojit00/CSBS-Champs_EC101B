@@ -6,7 +6,8 @@ body {
     background-position: center;
     background-size: cover;
     overflow: none;
-    
+    background-color: rgba(255, 255, 255, 0.345); /* Adjust the last value (0 to 1) for opacity */
+    background-blend-mode: lighten; /* You can adjust blend mode based on your preference */
     width: auto;
     margin: 0;
     padding: 0;
@@ -59,13 +60,13 @@ nav ul li a {
     margin-top: 20px;
     margin-bottom: 10px;
     /* font-weight: 700; */
-    color: #FDF0D5;
+    color: #000000;
 }
 
 .hero p {
     font-family: cursive;
     font-size: 24px;
-    color: #e8eddf;
+    color: #050505;
     margin-top: 5px;
     margin-bottom: 40px;
 }
